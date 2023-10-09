@@ -60,4 +60,60 @@
     <string name="day_15">Day 15</string>
     <string name="day_15_goal">Make some changes</string>
     <string name="day_15_description">To make changes to your code, open the code file in a code editor or IDE and make the changes you need. Save the file and test your code to make sure the changes work as expected.</string>
+
+    <string name="day_16">Day 16</string>
+    <string name="day_16_goal">Commit your changes</string>
+    <string name="day_16_description">Committing your changes regularly is a good way to keep track of your work and to create a history of your changes. It is also a good way to prepare for pushing your changes to a remote repository.</string>
+
+    <string name="day_17">Day 17</string>
+    <string name="day_17_goal">Create a pull request</string>
+    <string name="day_17_description">To create a pull request (PR), make your changes on a separate branch and push them to the remote repository. Then, create a new pull request and explain your changes in the description. Once the PR is approved, merge it into the main branch.</string>
+
+    <string name="day_18">Day 18</string>
+    <string name="day_18_goal">Review the pull request</string>
+    <string name="day_18_description">Reviewing pull requests is an important part of the software development process. By taking the time to review pull requests carefully, you can help to ensure that the code is high quality and that it meets the needs of the project.</string>
+
+    <string name="day_19">Day 19</string>
+    <string name="day_19_goal">Merge the pull request</string>
+    <string name="day_19_description">Merging a pull request is the final step in the pull request workflow, and it results in the changes being made available to users. To merge a pull request, the developer who created it must first have all required approvals from other developers. Once the pull request is approved, the developer can merge it into the main branch.</string>
+
+    <string name="day_20">Day 20</string>
+    <string name="day_20_goal">Learn about testing</string>
+    <string name="day_20_description">Testing is the process of checking whether your code works as expected.</string>
+
+    <string name="day_21">Day 21</string>
+    <string name="day_21_goal">Write a unit test</string>
+    <string name="day_21_description">A unit test is a type of software test that verifies the functionality of a single unit of code, such as a function or class. Unit tests are typically written by developers and are run as part of the software development process.</string>
+
+    <string name="day_22">Day 22</string>
+    <string name="day_22_goal">Learn about integration testing</string>
+    <string name="day_22_description">Integration testing is the process of testing how different parts of your code work together.</string>
+
+    <string name="day_23">Day 23</string>
+    <string name="day_23_goal">Write an integration test</string>
+    <string name="day_23_description">Integration tests are important because they help to ensure that the different parts of a software system are working together as intended. Integration tests can also help to identify bugs that may not be found by unit tests.</string>
+
+    <string name="day_24">Day 24</string>
+    <string name="day_24_goal">Learn about regression testing</string>
+    <string name="day_24_description">Regression testing is the process of testing your code to make sure that changes you have made have not introduced any new bugs.</string>
+
+    <string name="day_25">Day 25</string>
+    <string name="day_25_goal">Write a regression test</string>
+    <string name="day_25_description">Regression tests are important because they help to ensure that the software system continues to work as intended after changes have been made.</string>
+
+    <string name="day_26">Day 26</string>
+    <string name="day_26_goal">Learn about deployment</string>
+    <string name="day_26_description">Deployment is the process of making your code available to users.</string>
+
+    <string name="day_27">Day 27</string>
+    <string name="day_27_goal">Deploy your code</string>
+    <string name="day_27_description">Deploying code is making your code available to users. This typically involves uploading your code to a server and configuring it to run.</string>
+
+    <string name="day_28">Day 28</string>
+    <string name="day_28_goal">Monitor your code</string>
+    <string name="day_28_description">Monitoring code in production is the process of collecting and analyzing data about how your code is performing in a real-world environment. This data can be used to identify and fix bugs, improve performance, and ensure that your code is meeting the needs of your users.</string>
+
+    <string name="day_29">Day 29</string>
+    <string name="day_29_goal">Start a new coding project!</string>
+    <string name="day_29_description">Choose a project you\'re passionate about, set realistic goals, and break it down into smaller tasks. Don\'t be afraid to ask for help, and have fun!.</string>
 </resources>

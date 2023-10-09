@@ -48,12 +48,6 @@ object DailyGoalRepository {
             R.string.day_7_description
         ),
         DailyGoal(
-            R.string.day_7,
-            R.string.day_7_goal,
-            R.drawable.img_day_7,
-            R.string.day_7_description
-        ),
-        DailyGoal(
             R.string.day_8,
             R.string.day_8_goal,
             R.drawable.img_day_8,

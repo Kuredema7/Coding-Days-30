@@ -1,3 +1,63 @@
 <resources>
     <string name="app_name">Coding Days</string>
+
+    <string name="day_1">Day 1</string>
+    <string name="day_1_goal">Set up your development environment</string>
+    <string name="day_1_description">This includes installing the necessary software and tools, such as a code editor, compiler, and debugger.</string>
+
+    <string name="day_2">Day 2</string>
+    <string name="day_2_goal">Learn the basics of programming syntax</string>
+    <string name="day_2_description">This includes variables, data types, operators, and control flow statements.</string>
+
+    <string name="day_3">Day 3</string>
+    <string name="day_3_goal">Write your first program</string>
+    <string name="day_3_description">This could be a simple program, such as a calculator or a text-based game.</string>
+
+    <string name="day_4">Day 4</string>
+    <string name="day_4_goal">Learn about functions and procedures</string>
+    <string name="day_4_description">Functions allow you to group together code that performs a specific task. Procedures are similar to functions, but they do not return a value.</string>
+
+    <string name="day_5">Day 5</string>
+    <string name="day_5_goal">Learn about object-oriented programming (OOP)</string>
+    <string name="day_5_description">OOP is a programming paradigm that uses objects to represent data and behavior.</string>
+
+    <string name="day_6">Day 6</string>
+    <string name="day_6_goal">Write a program that uses OOP principles</string>
+    <string name="day_6_description">This could be a program to simulate a real-world system, such as a bank account or a library.</string>
+
+    <string name="day_7">Day 7</string>
+    <string name="day_7_goal">Learn about data structures</string>
+    <string name="day_7_description">Data structures are ways of organizing data so that it can be accessed and manipulated efficiently.</string>
+
+    <string name="day_8">Day 8</string>
+    <string name="day_8_goal">Implement a data structure in code</string>
+    <string name="day_8_description">This could be a simple data structure, such as a linked list or a stack.</string>
+
+    <string name="day_9">Day 9</string>
+    <string name="day_9_goal">Learn about algorithms</string>
+    <string name="day_9_description">Algorithms are step-by-step instructions for solving a problem.</string>
+
+    <string name="day_10">Day 10</string>
+    <string name="day_10_goal">Implement an algorithm in code</string>
+    <string name="day_10_description">This could be a simple algorithm, such as sorting or searching.</string>
+
+    <string name="day_11">Day 11</string>
+    <string name="day_11_goal">Learn about version control</string>
+    <string name="day_11_description">Version control systems allow you to track changes to your code over time and revert to previous versions if necessary.</string>
+
+    <string name="day_12">Day 12</string>
+    <string name="day_12_goal">Create a new repository</string>
+    <string name="day_12_description">To create a new repository on a version control service, you will need to create an account with the service and follow the instructions provided. Once you have created a repository, you can clone it to your local machine, add code to it, commit your changes, and push them to the remote repository.</string>
+
+    <string name="day_13">Day 13</string>
+    <string name="day_13_goal">Push your code</string>
+    <string name="day_13_description">Pushing your code to the remote repository is a good way to keep your code safe and to share it with other developers. It is also a good way to collaborate on projects with other developers.</string>
+
+    <string name="day_14">Day 14</string>
+    <string name="day_14_goal">Create a new branch</string>
+    <string name="day_14_description">Creating a new branch allows you to isolate your changes from the main branch of the repository. This is useful when you are working on a new feature or bug fix, as it allows you to experiment without breaking the main branch.</string>
+
+    <string name="day_15">Day 15</string>
+    <string name="day_15_goal">Make some changes</string>
+    <string name="day_15_description">To make changes to your code, open the code file in a code editor or IDE and make the changes you need. Save the file and test your code to make sure the changes work as expected.</string>
 </resources>

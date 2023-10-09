@@ -23,12 +23,12 @@ val DailyGoalTypography = Typography(
     displayMedium = TextStyle(
         fontFamily = NotoSans,
         fontWeight = FontWeight.Bold,
-        fontSize = 24.sp
+        fontSize = 22.sp
     ),
     displaySmall = TextStyle(
         fontFamily = NotoSans,
         fontWeight = FontWeight.Bold,
-        fontSize = 20.sp
+        fontSize = 18.sp
     ),
     titleSmall = TextStyle(
         fontFamily = NotoSans,

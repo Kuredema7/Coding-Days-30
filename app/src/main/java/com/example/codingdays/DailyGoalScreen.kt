@@ -26,6 +26,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
+import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -46,7 +47,7 @@ fun DailyGoalCard(
     modifier: Modifier = Modifier,
     dailyGoal: DailyGoal
 ) {
-    var showDayGaolDescription by remember {
+    var showDayGaolDescription by rememberSaveable {
         mutableStateOf(false)
     }
     Card(
@@ -54,14 +55,7 @@ fun DailyGoalCard(
         elevation = CardDefaults.cardElevation(
             defaultElevation = dimensionResource(R.dimen.card_elevation_small)
         ),
-        modifier = Modifier
-            .padding(
-                top = dimensionResource(R.dimen.padding_small),
-                bottom = dimensionResource(R.dimen.padding_small),
-                start = dimensionResource(R.dimen.padding_medium),
-                end = dimensionResource(R.dimen.padding_medium)
-
-            ),
+        modifier = modifier,
         onClick = {
             showDayGaolDescription = !showDayGaolDescription
         }

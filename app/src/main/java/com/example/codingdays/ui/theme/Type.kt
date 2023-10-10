@@ -14,11 +14,14 @@ val NotoSans = FontFamily(
     Font(R.font.noto_sans_bold, FontWeight.Bold)
 )
 
+val Rubik = FontFamily(
+    Font(R.font.rubik_medium_italic, FontWeight.Normal)
+)
+
 val DailyGoalTypography = Typography(
     displayLarge = TextStyle(
-        fontFamily = NotoSans,
-        fontWeight = FontWeight.Normal,
-        fontSize = 36.sp
+        fontFamily = Rubik,
+        fontSize = 28.sp
     ),
     displayMedium = TextStyle(
         fontFamily = NotoSans,

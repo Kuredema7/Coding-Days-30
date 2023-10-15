@@ -51,7 +51,7 @@ fun DailyGoalCard(
         mutableStateOf(false)
     }
     Card(
-        colors = CardDefaults.cardColors(MaterialTheme.colorScheme.surfaceVariant),
+        colors = CardDefaults.cardColors(MaterialTheme.colorScheme.surface),
         elevation = CardDefaults.cardElevation(
             defaultElevation = dimensionResource(R.dimen.card_elevation_small)
         ),

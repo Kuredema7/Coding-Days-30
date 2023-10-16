@@ -4,6 +4,7 @@ import android.annotation.SuppressLint
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
+import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -17,9 +18,11 @@ import androidx.compose.material.icons.outlined.Search
 import androidx.compose.material3.CenterAlignedTopAppBar
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
+import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextField
+import androidx.compose.material3.TextFieldDefaults
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
@@ -27,6 +30,8 @@ import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.clip
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.dimensionResource
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.codingdays.data.DailyGoalRepository.dailyGoals
@@ -73,9 +78,21 @@ fun SearchView(
         leadingIcon = {
             Icon(
                 Icons.Outlined.Search,
-                contentDescription = "Search Icon"
+                contentDescription = "Search Icon",
+                modifier = Modifier
+                    .padding(
+                        start = dimensionResource(R.dimen.padding_medium),
+                        end = dimensionResource(R.dimen.padding_small)
+                    )
             )
-        }
+        },
+        placeholder = { Text(text = "Search")},
+        colors = TextFieldDefaults.textFieldColors(
+            focusedIndicatorColor = Color.Transparent,
+            unfocusedIndicatorColor = Color.Transparent,
+            disabledIndicatorColor = Color.Transparent
+        )
+
     )
 }
 
@@ -84,7 +101,9 @@ fun DailyGoalApp() {
     var textState by rememberSaveable {
         mutableStateOf("")
     }
-    Column {
+    Column(
+        horizontalAlignment = Alignment.CenterHorizontally
+    ) {
         SearchView(
             textState = textState,
             onValueChange = { newTextState ->
@@ -92,6 +111,8 @@ fun DailyGoalApp() {
             },
             modifier = Modifier
                 .fillMaxWidth()
+                .padding(dimensionResource(R.dimen.padding_medium))
+                .clip(MaterialTheme.shapes.extraLarge)
         )
         DailyGoalList(
             dailyGoals = dailyGoals,
@@ -134,5 +155,5 @@ fun DailyGoalTopAppBar() {
 @Preview(showBackground = true)
 @Composable
 fun DailyGoalAppPreview() {
-
+    DailyGoalApp()
 }
